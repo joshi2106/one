@@ -952,7 +952,7 @@
 
         // --- Mobile menu toggle ---
         const mobileToggle = document.getElementById('mobileToggle');
-        const mobileMenu = document.getElementById('mobileMenu');
+        const tabMenu = document.getElementById('mobileMenu');
         mobileToggle.addEventListener('click', () => {
             mobileMenu.style.display = mobileMenu.style.display === 'none' || !mobileMenu.style.display ? 'block' : 'none';
         });
